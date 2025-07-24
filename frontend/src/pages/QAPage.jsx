@@ -107,7 +107,7 @@ const QAPage = () => {
       // Store the extracted text for Q&A
       if (response.extracted_text && response.file_id) {
         try {
-          await fetch('https://textiq-smart-content-automation.onrender.com/api/v1/store-file-content/' + response.file_id, {
+          await fetch('http://localhost:8000/api/v1/store-file-content/' + response.file_id, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
