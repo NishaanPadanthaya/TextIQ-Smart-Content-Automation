@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     MAX_FILE_SIZE: int = 10485760  # 10MB
 
     # CORS Configuration
-    CORS_ORIGINS: str = "https://text-iq-smart-content-automation.vercel.app/"
+    CORS_ORIGINS: str = "https://text-iq-smart-content-automation.vercel.app"
 
     # Supported file types
     SUPPORTED_FILE_TYPES: List[str] = [".pdf", ".docx", ".txt"]

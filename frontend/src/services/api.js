@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: 'https://textiq-smart-content-automation.onrender.com',
+  baseURL: 'https://textiq-smart-content-automation.onrender.com/api/v1',
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
